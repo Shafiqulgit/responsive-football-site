@@ -282,6 +282,10 @@ p {
   width: 463px;
   height: 427px;
   border: 2px solid red;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-content: center;
+  align-items: center;
 }
 
 .container-club {
@@ -289,27 +293,42 @@ p {
   height: 427px;
   border: 2px solid red;
   text-align: center;
-  background-image: url(images/);
 }
 
-.view-here {
+.backgourn-image img {
+  width: 284px;
+  height: 215px;
+}
+
+.view-here h4 {
   text-align: center;
-  justify-content: center;
-  padding: 145px 120px;
-}
-
-h4 {
-  font-size: 40px;
-  font-family: "Poppins", sans-serif;
-  color: black;
   text-transform: uppercase;
-  font-weight: bold;
+  color: #fff;
+  font-size: 35px;
+  font-family: "Poppins", sans-serif;
 }
 
-#font-style {
-  font-family: "Poppins", sans-serif;
-  color: orange;
-  font-size: 40px;
-  font-weight: 400;
-  font-style: italic;
+#color-style {
+  color: rgba(187, 135, 39, 0.829);
+}
+
+/* start footer section */
+.main-footer {
+  width: 484px;
+  height: 206px;
+  border: 2px solid red;
+  margin: 0px 481px 63px 475px;
+  display: grid;
+  grid-template-columns: 1fr;
+}
+.social-icon {
+  text-align: center;
+}
+
+.paragraph {
+  text-align: center;
+}
+.footer-background img {
+  width: 483px;
+  height: 103px;
 }

@@ -273,7 +273,6 @@ p {
 .container-flexible-2 {
   width: 1050px;
   margin: 165px 132px 158px 180px;
-  border: 2px solid red;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
 }
@@ -289,15 +288,80 @@ p {
 }
 
 .container-club {
-  width: 567px;
+  width: 466px;
   height: 427px;
-  border: 2px solid red;
   text-align: center;
+}
+
+.container-heading {
+  width: 530px;
+  height: 94px;
+}
+
+.heading-section {
+  height: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.heading-1 h4 {
+  font-size: 18px;
+  font-weight: bold;
+  color: rgba(10, 10, 224, 0.767);
+  padding: 10px;
+  margin-top: 20px;
+}
+
+.ball {
+  font-size: 28px;
+  font-weight: bold;
+  color: #e02c6d;
+}
+
+.heading-2 .nice-color {
+  font-size: 18px;
+  font-weight: bold;
+  color: rgba(10, 10, 224, 0.767);
+  padding: 10px;
+  margin-top: 20px;
 }
 
 .backgourn-image img {
   width: 284px;
   height: 215px;
+}
+
+/* container team start */
+.container-team {
+  width: 530px;
+  height: 300px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.sub-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.Beracelona img {
+  width: 150px;
+  height: 150px;
+  margin-top: 150px 10px 0px 20px;
+  background-color: rgba(52, 127, 240, 0.562);
+}
+
+.barsa-gimna {
+  width: 150px;
+  height: 150px;
+  margin-top: 90px 0px 0px 20px;
+}
+
+.gimnsstic img {
+  width: 150px;
+  height: 150px;
+  margin-top: 150px 0px 0px 20px;
 }
 
 .view-here h4 {
@@ -331,4 +395,17 @@ p {
 .footer-background img {
   width: 483px;
   height: 103px;
+}
+/* media quiaries */
+@media only screen and (max-width: 688px) {
+  .header-section {
+    width: 100%;
+  }
+  .flexible-container {
+    grid-template-columns: 1fr;
+  }
+}
+
+.first-card-section {
+  grid-template-columns: 1fr;
 }
